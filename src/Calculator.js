@@ -34,7 +34,7 @@ class Calculator extends Component{
             <input type="text" value={this.state.val1} onChange={this.box1} />
               <span>+</span>
               <input type="text" value={this.state.val2} onChange={this.box2} />
-              <span>= {this.state.total}</span>
+              <span>= <h3>{this.state.total}</h3></span>
               <h3>Addition results go here!</h3>
               <input type="submit" value="submit" />
           </form>
